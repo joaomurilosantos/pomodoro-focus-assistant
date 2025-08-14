@@ -81,24 +81,26 @@
             // 
             // button1
             // 
+            button1.BackColor = Color.Lime;
             button1.Location = new Point(203, 327);
             button1.Name = "button1";
             button1.Size = new Size(136, 62);
             button1.TabIndex = 4;
             button1.Text = "Start";
             button1.TextAlign = ContentAlignment.TopCenter;
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click_1;
             // 
             // button2
             // 
+            button2.BackColor = Color.Blue;
             button2.Location = new Point(411, 327);
             button2.Name = "button2";
             button2.Size = new Size(132, 62);
             button2.TabIndex = 5;
             button2.Text = "Pause";
             button2.TextAlign = ContentAlignment.TopCenter;
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 

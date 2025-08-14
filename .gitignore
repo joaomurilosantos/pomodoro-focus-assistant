@@ -1,0 +1,48 @@
+# Pasta de configurações locais do Visual Studio
+.vs/
+
+# Pastas de build
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# Arquivos de cache do Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de teste temporários
+TestResult*/
+*.VisualState.xml
+*.cache
+*.pdb
+*.opendb
+
+# Arquivos de publicação
+*.Publish.xml
+publish/
+
+# Pastas de dependências geradas
+node_modules/
+packages/
+
+# Arquivos de backup temporários
+*~
+*.tmp
+*.bak
+
+# Configurações do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Configurações do Rider/JetBrains (se usar)
+.idea/
+*.iml
+
+# Arquivos de indexação do Visual Studio
+*.vsidx
